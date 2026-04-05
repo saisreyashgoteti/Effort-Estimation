@@ -1,50 +1,78 @@
-# Project: Automated Codebase Analysis and Talent Identification Pipeline
+# GitHub Repository Metrics Dataset (5K+ Repos)
+
+> 5,500 synthetic repositories with popularity, activity, maintenance, and community-health signals for software analytics.
+
+**Kaggle dataset:** [lorenzoscaturchio/github-repo-metrics](https://www.kaggle.com/datasets/lorenzoscaturchio/github-repo-metrics)  
+**Companion notebook:** [Github Repo Metrics Explorer V2](https://www.kaggle.com/code/lorenzoscaturchio/github-repo-metrics-explorer-v2)  
+**License:** GPL-3.0
 
 ## Overview
-This project leverages advanced AI models and automated scraping tools to analyze thousands of GitHub repositories. By integrating GitHub's Metadata API, LinkedIn profiles, and social data, we aim to derive comprehensive metrics on developer skills, project difficulty, and team dynamics. The ultimate goal is to build a robust dataset and model capable of predicting project outcomes, developer efficiency, and aptitude.
 
-## Architecture & Technology Stack
+This dataset is designed for practical repository analytics: predicting stars, segmenting projects by health, and exploring how engineering hygiene relates to traction. It combines product-style signals, collaboration signals, and governance signals in one compact table.
 
-### 1. Data Collection & Ingestion
-- **Source**: GitHub Repositories (11,000+ entries targeted).
-- **Tooling**:
-  - **Octokit**: Official GitHub API toolkit for accessing repositories, user data, and contribution stats.
-  - **Google Opal**: Automation driver for high-throughput data collection.
+All records are synthetic, but the schema is intentionally realistic enough for:
+- tabular regression and classification
+- software engineering analytics demos
+- portfolio projects around open source quality and popularity
+- downstream feature-importance or explainability examples
 
-### 2. Analysis Engine
-- **Core Engine**: **Google Gemini 3 Pro**.
-- **Model**: **Gemma 3** (Open Source Model).
-  - Specialized in identifying key timestamp differences across commits.
-  - Utilizes file modification metadata via GitHub Metadata API.
-- **Complexity Analysis**: **Claude 4.5 Pro** (used for assessing codebase difficulty).
+## Quick Facts
 
-### 3. Data Enrichment
-- **Sources**:
-  - **Social Profiles**: LinkedIn and other social platforms to map developer skills.
-  - **External Data**: Manual scraping from secondary datasets and research papers.
-- **Metrics Derived**:
-  - **Developer**: Coding time, efficiency, performance, aptitude, contribution, collaborativeness.
-  - **Project**: Delivery time, agile score, productivity, KPIs, deliverables.
+| Property | Value |
+|---|---|
+| File | `github_repos.csv` |
+| Rows | `5,500` |
+| Columns | `29` |
+| Coverage | `2014-01-01` to `2025-12-31` |
+| Languages | `12` |
+| Geography | `Global (synthetic)` |
 
-### 4. Human Verification
-- A manual intervention layer ensures data scrutinized by the AI models is verified before final processing.
+## Best First Analyses
 
-### 5. Model Training & Deployment
-- **Platform**: **Google Cloud Platform (GCP) VertexAI**.
-- **Infrastructure**: High-level GPUs for processing complex relations within the data.
-- **Output**: Multi-modular models trained on custom datasets.
+1. Predict `stars`, `forks`, or `watchers` from repository metadata.
+2. Classify healthy vs at-risk repositories from governance and maintenance signals.
+3. Compare languages by traction, release cadence, and contributor depth.
+4. Measure how README size, CI, or test coverage correlate with community growth.
+5. Build explainable tree models for software-product analytics.
 
-## Development Status
-- **Current Progress**: 36% complete.
-- **Target**: Completion within 4 weeks.
+## Column Guide
 
-## Roadmap
-1. **Weeks 1-3**: Complete data collection, pipelines, and model training.
-2. **Week 4**: Testing, validation, and research articulation.
+### Repository identity
 
-## Directory Structure
-- `data_collection/`: Scripts for GitHub scraping and Octokit integration.
-- `analysis/`: Gemma 3 model implementation and metadata processing.
-- `external_data/`: Tools for scraping LinkedIn and social profiles.
-- `model_training/`: VertexAI integration and training scripts.
-- `docs/`: Project documentation and research papers.
+- `repo_name`, `language`, `description`, `license`, `topics`
+- `created_date`, `last_commit_date`, `default_branch`
+
+### Popularity and activity
+
+- `stars`, `forks`, `watchers`
+- `open_issues`, `closed_issues`
+- `open_pull_requests`, `merged_pull_requests`
+- `contributors`, `commits`, `releases`
+
+### Community health and maintenance
+
+- `readme_length`, `has_ci`, `test_coverage`
+- `has_code_of_conduct`, `has_contributing_guide`
+- `has_wiki`, `has_pages`, `has_discussions`
+- `is_archived`, `is_fork`, `size_kb`
+
+## Linked Assets
+
+- Dataset page: <https://www.kaggle.com/datasets/lorenzoscaturchio/github-repo-metrics>
+- Explore notebook: <https://www.kaggle.com/code/lorenzoscaturchio/github-repo-metrics-explorer-v2>
+
+## Modeling Notes
+
+- Popularity targets are intentionally long-tailed, so log transforms are often useful.
+- Governance features such as `has_ci`, `has_contributing_guide`, and `has_code_of_conduct` are meant to support repository-health segmentation.
+- `topics` and `description` can be used for lightweight NLP features if you want to combine structured and text signals.
+
+## Provenance
+
+- Generated from repository scripts in this project
+- Built from public schema conventions and OSS platform patterns
+- Intended for education, benchmarking, demos, and exploratory research
+
+## Citation
+
+Scaturchio, Lorenzo (2026). *GitHub Repository Metrics Dataset (5K+ Repos).* Kaggle Dataset. <https://www.kaggle.com/datasets/lorenzoscaturchio/github-repo-metrics>
