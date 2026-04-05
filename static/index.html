@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Effort Estimation AI Dashboard</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="bg-elements">
+        <div class="glow-orb orb-1"></div>
+        <div class="glow-orb orb-2"></div>
+        <div class="glow-orb orb-3"></div>
+    </div>
+
+    <div class="container">
+        <header>
+            <div class="logo">
+                <span class="logo-icon">✨</span>
+                <h1>Effort Estimation AI</h1>
+            </div>
+            <p class="subtitle">Predict project agility and code complexity using Machine Learning.</p>
+        </header>
+
+        <main>
+            <section class="controls glass-panel">
+                <div class="input-group">
+                    <label for="repo-input">Enter GitHub Repository (e.g. facebook/react)</label>
+                    <input type="text" id="repo-input" placeholder="owner/repo" autocomplete="off" />
+                </div>
+                
+                <div class="divider"><span>OR MVP ESTIMATION</span></div>
+                
+                <div class="input-group">
+                    <label for="srs-input">Project Description (SRS Summary)</label>
+                    <textarea id="srs-input" placeholder="E.g., Develop a secure payment gateway for a banking app" rows="2" style="width: 100%; border-radius: 0.75rem; padding: 1rem; background: rgba(15, 23, 42, 0.8); color: white; border: 1px solid rgba(255, 255, 255, 0.1); font-family: inherit; font-size: 1rem; resize: vertical;"></textarea>
+                </div>
+
+                <div style="display: flex; gap: 1rem; margin-bottom: 1rem; width: 100%;">
+                    <div class="input-group" style="flex: 2;">
+                        <label for="team-roster">Team Roster (GitHub/LinkedIn Usernames, comma sep)</label>
+                        <input type="text" id="team-roster" placeholder="torvalds, gaearon, yyx990803" style="width: 100%; border-radius: 0.75rem; padding: 1rem; background: rgba(15, 23, 42, 0.8); color: white; border: 1px solid rgba(255, 255, 255, 0.1); font-family: inherit; font-size: 1rem;" />
+                    </div>
+                    <div class="input-group" style="flex: 1;">
+                        <label for="srs-complexity">Complexity (1-5)</label>
+                        <input type="number" id="srs-complexity" placeholder="3" min="1" max="5" style="width: 100%; border-radius: 0.75rem; padding: 1rem; background: rgba(15, 23, 42, 0.8); color: white; border: 1px solid rgba(255, 255, 255, 0.1); font-family: inherit; font-size: 1rem;" />
+                    </div>
+                    <div class="input-group" style="flex: 1;">
+                        <label for="initial-hours">Initial Est. (Hrs)</label>
+                        <input type="number" id="initial-hours" placeholder="400" min="10" style="width: 100%; border-radius: 0.75rem; padding: 1rem; background: rgba(15, 23, 42, 0.8); color: white; border: 1px solid rgba(255, 255, 255, 0.1); font-family: inherit; font-size: 1rem;" />
+                    </div>
+                </div>
+
+                <div class="action-group">
+                    <button id="analyze-btn" class="btn-primary" disabled>
+                        <span class="btn-text">Run Prediction Engine</span>
+                        <span class="loader hidden"></span>
+                    </button>
+                </div>
+            </section>
+
+            <section id="results-panel" class="results glass-panel hidden">
+                <div class="results-header">
+                    <h2>Analysis Results for <span id="res-repo-name" class="highlight">...</span></h2>
+                    <div class="repo-meta">
+                        <span>⭐ <span id="res-stars">0</span></span>
+                        <span>🍴 <span id="res-forks">0</span></span>
+                    </div>
+                </div>
+                
+                <div class="llm-insight">
+                    <strong>🧠 Gemini AI Insight:</strong> 
+                    <span id="llm-summary-text">Analyzing repository commit patterns...</span>
+                </div>
+
+                <div class="metrics-container">
+                    <h3 class="section-title">Developer Skills & Profiling</h3>
+                    <div class="dashboard-grid">
+                        <div class="metric-card"><div class="metric-icon">👥</div><div class="metric-info"><h3>Contribution</h3><p id="metric-contributors" class="metric-value">0</p></div></div>
+                        <div class="metric-card"><div class="metric-icon">⏱️</div><div class="metric-info"><h3>Coding Time</h3><p class="metric-value"><span id="metric-velocity">0</span><span class="unit">h</span></p><p class="metric-sub">avg commit interval</p></div></div>
+                        <div class="metric-card"><div class="metric-icon">⚡</div><div class="metric-info"><h3>Efficiency</h3><p class="metric-value"><span id="metric-efficiency">0</span><span class="unit">%</span></p></div></div>
+                        <div class="metric-card"><div class="metric-icon">🚀</div><div class="metric-info"><h3>Performance</h3><p class="metric-value"><span id="metric-performance">0</span><span class="unit">%</span></p></div></div>
+                        <div class="metric-card"><div class="metric-icon">🧠</div><div class="metric-info"><h3>Aptitude</h3><p class="metric-value"><span id="metric-aptitude">0</span><span class="unit">%</span></p></div></div>
+                        <div class="metric-card"><div class="metric-icon">🤝</div><div class="metric-info"><h3>Collaborativeness</h3><p class="metric-value"><span id="metric-collaborativeness">0</span><span class="unit">%</span></p></div></div>
+                    </div>
+
+                    <h3 class="section-title" style="margin-top: 2rem;">Project Insights & KPIs</h3>
+                    <div class="dashboard-grid">
+                        <!-- Prediction Cards -->
+                        <div class="prediction-card highlight-card">
+                            <h3>Effort Range (Hours)</h3>
+                            <div class="score-container" style="display:flex; justify-content:center; align-items:center; height:100px;">
+                                <span id="effort-range-text" style="font-size: 2.2rem; font-weight: bold; color: white;">Pending</span>
+                            </div>
+                        </div>
+
+                        <div class="prediction-card status-card">
+                            <h3>Productivity</h3>
+                            <div class="status-indicator">
+                                <span id="metric-productivity" class="metric-value" style="font-size: 2.5rem; color: var(--accent);">0</span><span class="unit" style="color: var(--accent);">%</span>
+                            </div>
+                        </div>
+                        
+                        <div class="prediction-card status-card">
+                            <h3>Agile Readiness</h3>
+                            <div class="status-indicator" style="display: flex; align-items: center; justify-content: center; gap: 0.5rem; height: 100px;">
+                                <div id="readiness-dot" class="pulse-dot" style="width:16px; height:16px; border-radius:50%; background:var(--accent);"></div>
+                                <span class="status-text" id="res-readiness" style="font-size: 1.5rem; font-weight: bold; color:white;">Pending</span>
+                            </div>
+                        </div>
+
+                        <div class="metric-card"><div class="metric-icon">📅</div><div class="metric-info"><h3>Delivery Time</h3><p class="metric-value"><span id="metric-delivery">0</span><span class="unit">d</span></p><p class="metric-sub">estimated</p></div></div>
+                        <div class="metric-card"><div class="metric-icon">📊</div><div class="metric-info"><h3>KPIs Met</h3><p class="metric-value"><span id="metric-kpis">0</span><span class="unit">%</span></p></div></div>
+                        <div class="metric-card"><div class="metric-icon">🧩</div><div class="metric-info"><h3>Complexity</h3><p id="metric-complexity" class="metric-value">0</p></div></div>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="methodology glass-panel text-content" style="margin-top: 2rem;">
+                <h2>Methodology & Architecture</h2>
+                <p>We have used Octakit to help us scrape through thousands of repositories gathering project source code. Octakit is GitHub’s official API toolkit chain that helps users access repositories, GitHub’s insights into user data, contributions, and difficulty of the codebase analyzed with Claude 4.5 Pro.</p>
+                <p>We have written an automation using Google Opal, where the automation drives the GitHub’s throughput is delivered to the Google Gemini 3 Pro engine driven through an open source model called Gemma 3, which drives the entire code analysis tool which helps us export the entire dataset scraping through over 11,000 entries so far, which are further scrutinized through human intervention.</p>
+                <p>The Gemma model has been trained to identify the key difference in timestamps across commits, and using identification of file modification metadata provided by the Metadata API we achieve a comprehensive set of metrics. This combined with the users LinkedIn profile and social profiles help us understand the skills of the user, paired with this Metadata API unlocks many key factors such as coding time, efficiency, performance, aptitude, contribution, collaborativeness and metrics about the project such as delivery time, agile score, productivity, KPIs used and deliverables of the project.</p>
+            </section>
+        </main>
+        
+        <footer>
+            <p>Powered by Google Vertex AI & Gemma Models</p>
+        </footer>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
