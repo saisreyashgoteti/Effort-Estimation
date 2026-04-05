@@ -1,0 +1,21 @@
+{
+  "name": "effort-estimation",
+  "version": "1.0.0",
+  "description": "This project leverages advanced AI models and automated scraping tools to analyze thousands of GitHub repositories. By integrating GitHub's Metadata API, LinkedIn profiles, and social data, we aim to derive comprehensive metrics on developer skills, project difficulty, and team dynamics. The ultimate goal is to build a robust dataset and model capable of predicting project outcomes, developer efficiency, and aptitude.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@octokit/rest": "^22.0.1",
+    "axios": "^1.13.5",
+    "dotenv": "^17.2.4"
+  }
+}

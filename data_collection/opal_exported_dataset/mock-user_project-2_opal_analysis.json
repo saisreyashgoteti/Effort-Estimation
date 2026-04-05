@@ -1,0 +1,40 @@
+{
+    "repository": {
+        "id": 2,
+        "name": "project-2",
+        "full_name": "mock-user/project-2",
+        "owner": "mock-user",
+        "stars": 2711,
+        "forks": 510,
+        "language": "Java",
+        "created_at": "2025-01-08T09:22:13.383033",
+        "pushed_at": "2026-02-12T09:22:13.383034",
+        "description": "A mock repository for testing effort estimation.",
+        "topics": [
+            "ai",
+            "machine-learning",
+            "web"
+        ]
+    },
+    "human_scrutinized": true,
+    "user_skills_profile": {
+        "coding_time_avg_hours": 24.0,
+        "efficiency": 75.0,
+        "performance": 80.0,
+        "aptitude": 85.0,
+        "contribution": 5,
+        "collaborativeness": 85
+    },
+    "project_metrics": {
+        "difficulty_claude_4_5": 67.5,
+        "delivery_time_days": 81.0,
+        "agile_score": 79.0,
+        "productivity": 88.0,
+        "kpis_used": [
+            "Commit Velocity",
+            "File Modification Rate",
+            "Social Graph Network"
+        ],
+        "deliverables": "Mapped Source Components"
+    }
+}

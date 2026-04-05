@@ -1,0 +1,38 @@
+{
+    "dev1@example.com": {
+        "linkedin_matched": true,
+        "github_activity_tier": "High",
+        "derived_skills": {
+            "coding_time": 24.5,
+            "efficiency": 78.75,
+            "performance": 75,
+            "aptitude": 85,
+            "contribution": 10,
+            "collaborativeness": 82.5
+        }
+    },
+    "senior@example.com": {
+        "linkedin_matched": true,
+        "github_activity_tier": "High",
+        "derived_skills": {
+            "coding_time": 24.4,
+            "efficiency": 79.8,
+            "performance": 76,
+            "aptitude": 86,
+            "contribution": 11,
+            "collaborativeness": 83.60000000000001
+        }
+    },
+    "arch@example.com": {
+        "linkedin_matched": true,
+        "github_activity_tier": "High",
+        "derived_skills": {
+            "coding_time": 24.3,
+            "efficiency": 80.85000000000001,
+            "performance": 77,
+            "aptitude": 87,
+            "contribution": 12,
+            "collaborativeness": 84.7
+        }
+    }
+}

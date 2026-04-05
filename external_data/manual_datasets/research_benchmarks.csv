@@ -1,0 +1,11 @@
+Project,Language,KLOC,TeamSize,Effort,Duration,Methodology,ComplexityScore
+"NASA93", "Fortran", 120, 15, 1200, 24, "Waterfall", 95
+"COCOMO81", "C", 80, 10, 800, 18, "Waterfall", 85
+"Desharnais", "COBOL", 200, 25, 2500, 36, "Agile", 120
+"China", "Java", 50, 5, 450, 12, "Agile", 60
+"Albrecht", "PL/I", 150, 20, 1800, 30, "Hybrid", 110
+"Maxwell", "C++", 300, 30, 3500, 48, "Agile", 140
+"Kemerer", "C", 40, 4, 300, 10, "Waterfall", 50
+"Kitchenham", "VB", 20, 3, 150, 6, "Agile", 40
+"Miyazaki", "Java", 60, 6, 600, 14, "Agile", 70
+"Telecom", "C++", 250, 28, 3000, 40, "Hybrid", 130

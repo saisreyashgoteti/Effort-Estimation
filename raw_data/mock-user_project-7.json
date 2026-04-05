@@ -1,0 +1,1611 @@
+{
+  "repository": {
+    "id": 7,
+    "name": "project-7",
+    "full_name": "mock-user/project-7",
+    "owner": "mock-user",
+    "stars": 164,
+    "forks": 531,
+    "language": "Python",
+    "created_at": "2025-01-08T09:12:36.896956",
+    "pushed_at": "2026-02-12T09:12:36.896957",
+    "description": "A mock repository for testing effort estimation.",
+    "topics": [
+      "ai",
+      "machine-learning",
+      "web"
+    ]
+  },
+  "commit_history": [
+    {
+      "sha": "sha0",
+      "author": "dev-1",
+      "email": "dev-2@example.com",
+      "date": "2025-02-12T09:12:36.896642",
+      "message": "update feature 0",
+      "time_since_last_commit_hours": 12.7,
+      "files_modified_count": 8
+    },
+    {
+      "sha": "sha1",
+      "author": "dev-2",
+      "email": "dev-3@example.com",
+      "date": "2025-02-14T15:38:17.999781",
+      "message": "update feature 1",
+      "time_since_last_commit_hours": 54.43,
+      "files_modified_count": 4
+    },
+    {
+      "sha": "sha2",
+      "author": "dev-1",
+      "email": "dev-2@example.com",
+      "date": "2025-02-13T01:38:48.269621",
+      "message": "update feature 2",
+      "time_since_last_commit_hours": 8.22,
+      "files_modified_count": 2
+    },
+    {
+      "sha": "sha3",
+      "author": "dev-5",
+      "email": "dev-1@example.com",
+      "date": "2025-02-14T19:51:28.905768",
+      "message": "update feature 3",
+      "time_since_last_commit_hours": 19.55,
+      "files_modified_count": 5
+    },
+    {
+      "sha": "sha4",
+      "author": "dev-1",
+      "email": "dev-2@example.com",
+      "date": "2025-02-17T19:10:06.536268",
+      "message": "update feature 4",
+      "time_since_last_commit_hours": 32.49,
+      "files_modified_count": 6
+    },
+    {
+      "sha": "sha5",
+      "author": "dev-2",
+      "email": "dev-5@example.com",
+      "date": "2025-02-14T02:19:50.229256",
+      "message": "update feature 5",
+      "time_since_last_commit_hours": 8.22,
+      "files_modified_count": 5
+    },
+    {
+      "sha": "sha6",
+      "author": "dev-1",
+      "email": "dev-1@example.com",
+      "date": "2025-02-13T15:59:49.129571",
+      "message": "update feature 6",
+      "time_since_last_commit_hours": 5.13,
+      "files_modified_count": 8
+    },
+    {
+      "sha": "sha7",
+      "author": "dev-1",
+      "email": "dev-1@example.com",
+      "date": "2025-02-15T04:31:58.241468",
+      "message": "update feature 7",
+      "time_since_last_commit_hours": 9.62,
+      "files_modified_count": 7
+    },
+    {
+      "sha": "sha8",
+      "author": "dev-1",
+      "email": "dev-5@example.com",
+      "date": "2025-02-24T08:58:27.178529",
+      "message": "update feature 8",
+      "time_since_last_commit_hours": 35.97,
+      "files_modified_count": 5
+    },
+    {
+      "sha": "sha9",
+      "author": "dev-1",
+      "email": "dev-2@example.com",
+      "date": "2025-02-17T18:31:46.794454",
+      "message": "update feature 9",
+      "time_since_last_commit_hours": 14.37,
+      "files_modified_count": 1
+    },
+    {
+      "sha": "sha10",
+      "author": "dev-5",
+      "email": "dev-3@example.com",
+      "date": "2025-02-21T03:18:39.845841",
+      "message": "update feature 10",
+      "time_since_last_commit_hours": 21.01,
+      "files_modified_count": 8
+    },
+    {
+      "sha": "sha11",
+      "author": "dev-5",
+      "email": "dev-4@example.com",
+      "date": "2025-02-20T12:13:55.607237",
+      "message": "update feature 11",
+      "time_since_last_commit_hours": 17.73,
+      "files_modified_count": 2
+    },
+    {
+      "sha": "sha12",
+      "author": "dev-2",
+      "email": "dev-1@example.com",
+      "date": "2025-02-14T02:11:31.523427",
+      "message": "update feature 12",
+      "time_since_last_commit_hours": 3.42,
+      "files_modified_count": 6
+    },
+    {
+      "sha": "sha13",
+      "author": "dev-1",
+      "email": "dev-1@example.com",
+      "date": "2025-02-19T00:59:16.424006",
+      "message": "update feature 13",
+      "time_since_last_commit_hours": 12.29,
+      "files_modified_count": 1
+    },
+    {
+      "sha": "sha14",
+      "author": "dev-3",
+      "email": "dev-2@example.com",
+      "date": "2025-02-13T03:22:52.850335",
+      "message": "update feature 14",
+      "time_since_last_commit_hours": 1.3,
+      "files_modified_count": 1
+    },
+    {
+      "sha": "sha15",
+      "author": "dev-4",
+      "email": "dev-5@example.com",
+      "date": "2025-02-20T01:25:24.803439",
+      "message": "update feature 15",
+      "time_since_last_commit_hours": 12.28,
+      "files_modified_count": 2
+    },
+    {
+      "sha": "sha16",
+      "author": "dev-1",
+      "email": "dev-4@example.com",
+      "date": "2025-04-13T13:16:29.265206",
+      "message": "update feature 16",
+      "time_since_last_commit_hours": 90.25,
+      "files_modified_count": 10
+    },
+    {
+      "sha": "sha17",
+      "author": "dev-5",
+      "email": "dev-2@example.com",
+      "date": "2025-03-31T18:35:28.961553",
+      "message": "update feature 17",
+      "time_since_last_commit_hours": 66.9,
+      "files_modified_count": 3
+    },
+    {
+      "sha": "sha18",
+      "author": "dev-1",
+      "email": "dev-2@example.com",
+      "date": "2025-02-27T18:54:38.438804",
+      "message": "update feature 18",
+      "time_since_last_commit_hours": 20.54,
+      "files_modified_count": 7
+    },
+    {
+      "sha": "sha19",
+      "author": "dev-1",
+      "email": "dev-2@example.com",
+      "date": "2025-03-13T18:34:23.919988",
+      "message": "update feature 19",
+      "time_since_last_commit_hours": 37.12,
+      "files_modified_count": 8
+    },
+    {
+      "sha": "sha20",
+      "author": "dev-1",
+      "email": "dev-2@example.com",
+      "date": "2025-02-18T07:28:00.575981",
+      "message": "update feature 20",
+      "time_since_last_commit_hours": 7.11,
+      "files_modified_count": 5
+    },
+    {
+      "sha": "sha21",
+      "author": "dev-3",
+      "email": "dev-3@example.com",
+      "date": "2025-02-23T01:46:31.870796",
+      "message": "update feature 21",
+      "time_since_last_commit_hours": 12.22,
+      "files_modified_count": 10
+    },
+    {
+      "sha": "sha22",
+      "author": "dev-3",
+      "email": "dev-5@example.com",
+      "date": "2025-02-28T18:18:51.780406",
+      "message": "update feature 22",
+      "time_since_last_commit_hours": 17.87,
+      "files_modified_count": 9
+    },
+    {
+      "sha": "sha23",
+      "author": "dev-2",
+      "email": "dev-2@example.com",
+      "date": "2025-03-04T18:59:26.040573",
+      "message": "update feature 23",
+      "time_since_last_commit_hours": 21.29,
+      "files_modified_count": 8
+    },
+    {
+      "sha": "sha24",
+      "author": "dev-1",
+      "email": "dev-1@example.com",
+      "date": "2025-02-26T17:56:19.275900",
+      "message": "update feature 24",
+      "time_since_last_commit_hours": 14.36,
+      "files_modified_count": 2
+    },
+    {
+      "sha": "sha25",
+      "author": "dev-2",
+      "email": "dev-1@example.com",
+      "date": "2025-02-19T10:12:30.934596",
+      "message": "update feature 25",
+      "time_since_last_commit_hours": 6.76,
+      "files_modified_count": 10
+    },
+    {
+      "sha": "sha26",
+      "author": "dev-5",
+      "email": "dev-2@example.com",
+      "date": "2025-02-28T00:53:09.126800",
+      "message": "update feature 26",
+      "time_since_last_commit_hours": 14.45,
+      "files_modified_count": 3
+    },
+    {
+      "sha": "sha27",
+      "author": "dev-1",
+      "email": "dev-2@example.com",
+      "date": "2025-03-09T05:36:47.676060",
+      "message": "update feature 27",
+      "time_since_last_commit_hours": 22.09,
+      "files_modified_count": 8
+    },
+    {
+      "sha": "sha28",
+      "author": "dev-1",
+      "email": "dev-1@example.com",
+      "date": "2025-02-17T15:04:28.443187",
+      "message": "update feature 28",
+      "time_since_last_commit_hours": 4.5,
+      "files_modified_count": 8
+    },
+    {
+      "sha": "sha29",
+      "author": "dev-5",
+      "email": "dev-4@example.com",
+      "date": "2025-02-26T22:45:51.711594",
+      "message": "update feature 29",
+      "time_since_last_commit_hours": 12.05,
+      "files_modified_count": 4
+    },
+    {
+      "sha": "sha30",
+      "author": "dev-4",
+      "email": "dev-2@example.com",
+      "date": "2025-02-15T11:05:09.467081",
+      "message": "update feature 30",
+      "time_since_last_commit_hours": 2.46,
+      "files_modified_count": 7
+    },
+    {
+      "sha": "sha31",
+      "author": "dev-1",
+      "email": "dev-1@example.com",
+      "date": "2025-05-08T05:23:14.991553",
+      "message": "update feature 31",
+      "time_since_last_commit_hours": 65.68,
+      "files_modified_count": 5
+    },
+    {
+      "sha": "sha32",
+      "author": "dev-4",
+      "email": "dev-5@example.com",
+      "date": "2025-03-03T18:57:29.566752",
+      "message": "update feature 32",
+      "time_since_last_commit_hours": 14.55,
+      "files_modified_count": 1
+    },
+    {
+      "sha": "sha33",
+      "author": "dev-2",
+      "email": "dev-2@example.com",
+      "date": "2025-02-19T13:29:19.216375",
+      "message": "update feature 33",
+      "time_since_last_commit_hours": 5.22,
+      "files_modified_count": 4
+    },
+    {
+      "sha": "sha34",
+      "author": "dev-5",
+      "email": "dev-3@example.com",
+      "date": "2025-02-18T01:33:41.916992",
+      "message": "update feature 34",
+      "time_since_last_commit_hours": 4.01,
+      "files_modified_count": 1
+    },
+    {
+      "sha": "sha35",
+      "author": "dev-5",
+      "email": "dev-5@example.com",
+      "date": "2025-03-19T23:42:16.856361",
+      "message": "update feature 35",
+      "time_since_last_commit_hours": 24.41,
+      "files_modified_count": 6
+    },
+    {
+      "sha": "sha36",
+      "author": "dev-4",
+      "email": "dev-3@example.com",
+      "date": "2025-07-09T02:49:49.491626",
+      "message": "update feature 36",
+      "time_since_last_commit_hours": 97.82,
+      "files_modified_count": 3
+    },
+    {
+      "sha": "sha37",
+      "author": "dev-2",
+      "email": "dev-4@example.com",
+      "date": "2025-03-29T15:11:13.431217",
+      "message": "update feature 37",
+      "time_since_last_commit_hours": 29.35,
+      "files_modified_count": 5
+    },
+    {
+      "sha": "sha38",
+      "author": "dev-3",
+      "email": "dev-4@example.com",
+      "date": "2025-03-24T08:28:58.253215",
+      "message": "update feature 38",
+      "time_since_last_commit_hours": 25.24,
+      "files_modified_count": 5
+    },
+    {
+      "sha": "sha39",
+      "author": "dev-4",
+      "email": "dev-4@example.com",
+      "date": "2025-03-15T22:07:54.820942",
+      "message": "update feature 39",
+      "time_since_last_commit_hours": 19.41,
+      "files_modified_count": 4
+    },
+    {
+      "sha": "sha40",
+      "author": "dev-1",
+      "email": "dev-3@example.com",
+      "date": "2025-03-02T15:40:13.479374",
+      "message": "update feature 40",
+      "time_since_last_commit_hours": 10.96,
+      "files_modified_count": 3
+    },
+    {
+      "sha": "sha41",
+      "author": "dev-3",
+      "email": "dev-5@example.com",
+      "date": "2025-03-01T23:43:31.133561",
+      "message": "update feature 41",
+      "time_since_last_commit_hours": 10.31,
+      "files_modified_count": 6
+    },
+    {
+      "sha": "sha42",
+      "author": "dev-2",
+      "email": "dev-4@example.com",
+      "date": "2025-03-18T12:46:10.315673",
+      "message": "update feature 42",
+      "time_since_last_commit_hours": 19.51,
+      "files_modified_count": 1
+    },
+    {
+      "sha": "sha43",
+      "author": "dev-2",
+      "email": "dev-3@example.com",
+      "date": "2025-02-23T04:36:31.102996",
+      "message": "update feature 43",
+      "time_since_last_commit_hours": 6.03,
+      "files_modified_count": 5
+    },
+    {
+      "sha": "sha44",
+      "author": "dev-5",
+      "email": "dev-1@example.com",
+      "date": "2025-03-20T09:44:26.165185",
+      "message": "update feature 44",
+      "time_since_last_commit_hours": 19.65,
+      "files_modified_count": 7
+    },
+    {
+      "sha": "sha45",
+      "author": "dev-2",
+      "email": "dev-1@example.com",
+      "date": "2025-03-16T13:59:22.253369",
+      "message": "update feature 45",
+      "time_since_last_commit_hours": 17.17,
+      "files_modified_count": 1
+    },
+    {
+      "sha": "sha46",
+      "author": "dev-4",
+      "email": "dev-4@example.com",
+      "date": "2025-03-05T19:29:39.878711",
+      "message": "update feature 46",
+      "time_since_last_commit_hours": 11.18,
+      "files_modified_count": 3
+    },
+    {
+      "sha": "sha47",
+      "author": "dev-3",
+      "email": "dev-2@example.com",
+      "date": "2025-04-16T15:51:42.076752",
+      "message": "update feature 47",
+      "time_since_last_commit_hours": 32.31,
+      "files_modified_count": 10
+    },
+    {
+      "sha": "sha48",
+      "author": "dev-2",
+      "email": "dev-3@example.com",
+      "date": "2025-04-26T22:23:32.919457",
+      "message": "update feature 48",
+      "time_since_last_commit_hours": 36.77,
+      "files_modified_count": 4
+    },
+    {
+      "sha": "sha49",
+      "author": "dev-2",
+      "email": "dev-4@example.com",
+      "date": "2025-04-05T15:22:12.161043",
+      "message": "update feature 49",
+      "time_since_last_commit_hours": 25.6,
+      "files_modified_count": 10
+    },
+    {
+      "sha": "sha50",
+      "author": "dev-4",
+      "email": "dev-4@example.com",
+      "date": "2025-02-13T04:02:55.729810",
+      "message": "update feature 50",
+      "time_since_last_commit_hours": 0.38,
+      "files_modified_count": 8
+    },
+    {
+      "sha": "sha51",
+      "author": "dev-4",
+      "email": "dev-2@example.com",
+      "date": "2025-03-01T05:59:19.949640",
+      "message": "update feature 51",
+      "time_since_last_commit_hours": 7.94,
+      "files_modified_count": 4
+    },
+    {
+      "sha": "sha52",
+      "author": "dev-5",
+      "email": "dev-5@example.com",
+      "date": "2025-03-18T13:15:16.977164",
+      "message": "update feature 52",
+      "time_since_last_commit_hours": 15.77,
+      "files_modified_count": 4
+    },
+    {
+      "sha": "sha53",
+      "author": "dev-1",
+      "email": "dev-1@example.com",
+      "date": "2025-05-19T03:54:31.094463",
+      "message": "update feature 53",
+      "time_since_last_commit_hours": 43.37,
+      "files_modified_count": 6
+    },
+    {
+      "sha": "sha54",
+      "author": "dev-1",
+      "email": "dev-5@example.com",
+      "date": "2025-02-19T12:40:28.828079",
+      "message": "update feature 54",
+      "time_since_last_commit_hours": 3.18,
+      "files_modified_count": 8
+    },
+    {
+      "sha": "sha55",
+      "author": "dev-4",
+      "email": "dev-3@example.com",
+      "date": "2025-02-15T03:27:13.752287",
+      "message": "update feature 55",
+      "time_since_last_commit_hours": 1.2,
+      "files_modified_count": 7
+    },
+    {
+      "sha": "sha56",
+      "author": "dev-4",
+      "email": "dev-3@example.com",
+      "date": "2025-03-14T14:53:58.693190",
+      "message": "update feature 56",
+      "time_since_last_commit_hours": 12.96,
+      "files_modified_count": 4
+    },
+    {
+      "sha": "sha57",
+      "author": "dev-1",
+      "email": "dev-4@example.com",
+      "date": "2025-03-05T04:58:05.248733",
+      "message": "update feature 57",
+      "time_since_last_commit_hours": 8.77,
+      "files_modified_count": 2
+    },
+    {
+      "sha": "sha58",
+      "author": "dev-2",
+      "email": "dev-2@example.com",
+      "date": "2025-04-13T11:43:56.044295",
+      "message": "update feature 58",
+      "time_since_last_commit_hours": 24.87,
+      "files_modified_count": 5
+    },
+    {
+      "sha": "sha59",
+      "author": "dev-1",
+      "email": "dev-3@example.com",
+      "date": "2025-02-22T19:12:51.501041",
+      "message": "update feature 59",
+      "time_since_last_commit_hours": 4.24,
+      "files_modified_count": 5
+    },
+    {
+      "sha": "sha60",
+      "author": "dev-1",
+      "email": "dev-1@example.com",
+      "date": "2025-03-03T15:09:40.989351",
+      "message": "update feature 60",
+      "time_since_last_commit_hours": 7.7,
+      "files_modified_count": 1
+    },
+    {
+      "sha": "sha61",
+      "author": "dev-3",
+      "email": "dev-1@example.com",
+      "date": "2025-03-06T09:53:25.988417",
+      "message": "update feature 61",
+      "time_since_last_commit_hours": 8.67,
+      "files_modified_count": 8
+    },
+    {
+      "sha": "sha62",
+      "author": "dev-3",
+      "email": "dev-3@example.com",
+      "date": "2025-02-22T19:17:21.859532",
+      "message": "update feature 62",
+      "time_since_last_commit_hours": 4.03,
+      "files_modified_count": 3
+    },
+    {
+      "sha": "sha63",
+      "author": "dev-5",
+      "email": "dev-3@example.com",
+      "date": "2025-10-31T04:47:19.614379",
+      "message": "update feature 63",
+      "time_since_last_commit_hours": 99.36,
+      "files_modified_count": 1
+    },
+    {
+      "sha": "sha64",
+      "author": "dev-4",
+      "email": "dev-1@example.com",
+      "date": "2025-06-25T08:27:26.506487",
+      "message": "update feature 64",
+      "time_since_last_commit_hours": 49.86,
+      "files_modified_count": 5
+    },
+    {
+      "sha": "sha65",
+      "author": "dev-1",
+      "email": "dev-5@example.com",
+      "date": "2025-04-26T00:30:30.323679",
+      "message": "update feature 65",
+      "time_since_last_commit_hours": 26.82,
+      "files_modified_count": 2
+    },
+    {
+      "sha": "sha66",
+      "author": "dev-5",
+      "email": "dev-1@example.com",
+      "date": "2025-03-31T12:39:36.023444",
+      "message": "update feature 66",
+      "time_since_last_commit_hours": 17.14,
+      "files_modified_count": 4
+    },
+    {
+      "sha": "sha67",
+      "author": "dev-3",
+      "email": "dev-1@example.com",
+      "date": "2025-05-29T15:19:16.162837",
+      "message": "update feature 67",
+      "time_since_last_commit_hours": 38.06,
+      "files_modified_count": 2
+    },
+    {
+      "sha": "sha68",
+      "author": "dev-4",
+      "email": "dev-5@example.com",
+      "date": "2025-11-22T14:13:04.124151",
+      "message": "update feature 68",
+      "time_since_last_commit_hours": 99.96,
+      "files_modified_count": 4
+    },
+    {
+      "sha": "sha69",
+      "author": "dev-4",
+      "email": "dev-1@example.com",
+      "date": "2025-03-21T14:17:38.896165",
+      "message": "update feature 69",
+      "time_since_last_commit_hours": 12.94,
+      "files_modified_count": 7
+    },
+    {
+      "sha": "sha70",
+      "author": "dev-5",
+      "email": "dev-1@example.com",
+      "date": "2025-02-22T10:42:56.432915",
+      "message": "update feature 70",
+      "time_since_last_commit_hours": 3.45,
+      "files_modified_count": 3
+    },
+    {
+      "sha": "sha71",
+      "author": "dev-2",
+      "email": "dev-4@example.com",
+      "date": "2025-02-25T22:56:23.539873",
+      "message": "update feature 71",
+      "time_since_last_commit_hours": 4.59,
+      "files_modified_count": 5
+    },
+    {
+      "sha": "sha72",
+      "author": "dev-1",
+      "email": "dev-4@example.com",
+      "date": "2025-02-18T23:20:13.091373",
+      "message": "update feature 72",
+      "time_since_last_commit_hours": 2.2,
+      "files_modified_count": 8
+    },
+    {
+      "sha": "sha73",
+      "author": "dev-3",
+      "email": "dev-3@example.com",
+      "date": "2025-03-28T20:54:34.861739",
+      "message": "update feature 73",
+      "time_since_last_commit_hours": 14.63,
+      "files_modified_count": 2
+    },
+    {
+      "sha": "sha74",
+      "author": "dev-1",
+      "email": "dev-1@example.com",
+      "date": "2025-02-23T17:08:48.150160",
+      "message": "update feature 74",
+      "time_since_last_commit_hours": 3.67,
+      "files_modified_count": 9
+    },
+    {
+      "sha": "sha75",
+      "author": "dev-1",
+      "email": "dev-1@example.com",
+      "date": "2025-05-11T10:02:06.579569",
+      "message": "update feature 75",
+      "time_since_last_commit_hours": 28.17,
+      "files_modified_count": 7
+    },
+    {
+      "sha": "sha76",
+      "author": "dev-1",
+      "email": "dev-5@example.com",
+      "date": "2025-08-01T18:43:55.272777",
+      "message": "update feature 76",
+      "time_since_last_commit_hours": 53.81,
+      "files_modified_count": 4
+    },
+    {
+      "sha": "sha77",
+      "author": "dev-1",
+      "email": "dev-4@example.com",
+      "date": "2025-04-25T14:29:37.072313",
+      "message": "update feature 77",
+      "time_since_last_commit_hours": 22.51,
+      "files_modified_count": 9
+    },
+    {
+      "sha": "sha78",
+      "author": "dev-1",
+      "email": "dev-3@example.com",
+      "date": "2025-03-20T21:00:31.073263",
+      "message": "update feature 78",
+      "time_since_last_commit_hours": 11.23,
+      "files_modified_count": 9
+    },
+    {
+      "sha": "sha79",
+      "author": "dev-1",
+      "email": "dev-1@example.com",
+      "date": "2025-07-28T12:02:44.435366",
+      "message": "update feature 79",
+      "time_since_last_commit_hours": 50.47,
+      "files_modified_count": 5
+    },
+    {
+      "sha": "sha80",
+      "author": "dev-1",
+      "email": "dev-1@example.com",
+      "date": "2025-05-10T20:47:23.231700",
+      "message": "update feature 80",
+      "time_since_last_commit_hours": 26.24,
+      "files_modified_count": 5
+    },
+    {
+      "sha": "sha81",
+      "author": "dev-1",
+      "email": "dev-5@example.com",
+      "date": "2025-06-06T15:07:36.947317",
+      "message": "update feature 81",
+      "time_since_last_commit_hours": 33.85,
+      "files_modified_count": 5
+    },
+    {
+      "sha": "sha82",
+      "author": "dev-5",
+      "email": "dev-1@example.com",
+      "date": "2025-03-10T13:11:19.857934",
+      "message": "update feature 82",
+      "time_since_last_commit_hours": 7.66,
+      "files_modified_count": 7
+    },
+    {
+      "sha": "sha83",
+      "author": "dev-5",
+      "email": "dev-5@example.com",
+      "date": "2025-06-04T04:40:53.178083",
+      "message": "update feature 83",
+      "time_since_last_commit_hours": 32.33,
+      "files_modified_count": 5
+    },
+    {
+      "sha": "sha84",
+      "author": "dev-4",
+      "email": "dev-4@example.com",
+      "date": "2025-06-05T05:45:44.008619",
+      "message": "update feature 84",
+      "time_since_last_commit_hours": 32.24,
+      "files_modified_count": 6
+    },
+    {
+      "sha": "sha85",
+      "author": "dev-1",
+      "email": "dev-3@example.com",
+      "date": "2025-02-14T17:55:30.827823",
+      "message": "update feature 85",
+      "time_since_last_commit_hours": 0.67,
+      "files_modified_count": 1
+    },
+    {
+      "sha": "sha86",
+      "author": "dev-4",
+      "email": "dev-2@example.com",
+      "date": "2025-06-18T06:38:58.120766",
+      "message": "update feature 86",
+      "time_since_last_commit_hours": 35.13,
+      "files_modified_count": 1
+    },
+    {
+      "sha": "sha87",
+      "author": "dev-2",
+      "email": "dev-2@example.com",
+      "date": "2025-06-28T23:13:18.309367",
+      "message": "update feature 87",
+      "time_since_last_commit_hours": 37.68,
+      "files_modified_count": 8
+    },
+    {
+      "sha": "sha88",
+      "author": "dev-3",
+      "email": "dev-2@example.com",
+      "date": "2025-03-28T13:52:49.053550",
+      "message": "update feature 88",
+      "time_since_last_commit_hours": 12.05,
+      "files_modified_count": 4
+    },
+    {
+      "sha": "sha89",
+      "author": "dev-1",
+      "email": "dev-1@example.com",
+      "date": "2025-08-26T21:20:04.685470",
+      "message": "update feature 89",
+      "time_since_last_commit_hours": 52.72,
+      "files_modified_count": 10
+    },
+    {
+      "sha": "sha90",
+      "author": "dev-3",
+      "email": "dev-4@example.com",
+      "date": "2025-03-14T02:43:34.250824",
+      "message": "update feature 90",
+      "time_since_last_commit_hours": 7.93,
+      "files_modified_count": 10
+    },
+    {
+      "sha": "sha91",
+      "author": "dev-2",
+      "email": "dev-3@example.com",
+      "date": "2025-04-23T15:40:15.765128",
+      "message": "update feature 91",
+      "time_since_last_commit_hours": 18.53,
+      "files_modified_count": 10
+    },
+    {
+      "sha": "sha92",
+      "author": "dev-4",
+      "email": "dev-2@example.com",
+      "date": "2025-03-27T01:54:59.026239",
+      "message": "update feature 92",
+      "time_since_last_commit_hours": 11.14,
+      "files_modified_count": 9
+    },
+    {
+      "sha": "sha93",
+      "author": "dev-4",
+      "email": "dev-2@example.com",
+      "date": "2025-02-26T04:02:59.618246",
+      "message": "update feature 93",
+      "time_since_last_commit_hours": 3.56,
+      "files_modified_count": 8
+    },
+    {
+      "sha": "sha94",
+      "author": "dev-3",
+      "email": "dev-2@example.com",
+      "date": "2026-03-24T23:31:43.939762",
+      "message": "update feature 94",
+      "time_since_last_commit_hours": 103.56,
+      "files_modified_count": 5
+    },
+    {
+      "sha": "sha95",
+      "author": "dev-4",
+      "email": "dev-5@example.com",
+      "date": "2025-04-29T03:28:13.043111",
+      "message": "update feature 95",
+      "time_since_last_commit_hours": 19.14,
+      "files_modified_count": 4
+    },
+    {
+      "sha": "sha96",
+      "author": "dev-1",
+      "email": "dev-2@example.com",
+      "date": "2026-04-06T03:55:38.780484",
+      "message": "update feature 96",
+      "time_since_last_commit_hours": 104.44,
+      "files_modified_count": 9
+    },
+    {
+      "sha": "sha97",
+      "author": "dev-5",
+      "email": "dev-5@example.com",
+      "date": "2025-03-09T22:42:58.573544",
+      "message": "update feature 97",
+      "time_since_last_commit_hours": 6.32,
+      "files_modified_count": 5
+    },
+    {
+      "sha": "sha98",
+      "author": "dev-2",
+      "email": "dev-2@example.com",
+      "date": "2025-03-14T04:33:26.470644",
+      "message": "update feature 98",
+      "time_since_last_commit_hours": 7.3,
+      "files_modified_count": 4
+    },
+    {
+      "sha": "sha99",
+      "author": "dev-3",
+      "email": "dev-5@example.com",
+      "date": "2025-04-11T03:07:16.664480",
+      "message": "update feature 99",
+      "time_since_last_commit_hours": 14.0,
+      "files_modified_count": 7
+    },
+    {
+      "sha": "sha100",
+      "author": "dev-2",
+      "email": "dev-1@example.com",
+      "date": "2025-03-17T19:20:46.004378",
+      "message": "update feature 100",
+      "time_since_last_commit_hours": 8.02,
+      "files_modified_count": 10
+    },
+    {
+      "sha": "sha101",
+      "author": "dev-4",
+      "email": "dev-5@example.com",
+      "date": "2025-10-04T11:22:42.920767",
+      "message": "update feature 101",
+      "time_since_last_commit_hours": 55.63,
+      "files_modified_count": 8
+    },
+    {
+      "sha": "sha102",
+      "author": "dev-2",
+      "email": "dev-5@example.com",
+      "date": "2025-02-14T23:18:39.790839",
+      "message": "update feature 102",
+      "time_since_last_commit_hours": 0.61,
+      "files_modified_count": 7
+    },
+    {
+      "sha": "sha103",
+      "author": "dev-5",
+      "email": "dev-5@example.com",
+      "date": "2025-09-28T04:14:49.583458",
+      "message": "update feature 103",
+      "time_since_last_commit_hours": 53.08,
+      "files_modified_count": 8
+    },
+    {
+      "sha": "sha104",
+      "author": "dev-5",
+      "email": "dev-1@example.com",
+      "date": "2025-08-01T22:39:06.258736",
+      "message": "update feature 104",
+      "time_since_last_commit_hours": 39.36,
+      "files_modified_count": 4
+    },
+    {
+      "sha": "sha105",
+      "author": "dev-1",
+      "email": "dev-5@example.com",
+      "date": "2025-07-03T05:19:55.519816",
+      "message": "update feature 105",
+      "time_since_last_commit_hours": 32.19,
+      "files_modified_count": 9
+    },
+    {
+      "sha": "sha106",
+      "author": "dev-3",
+      "email": "dev-2@example.com",
+      "date": "2025-08-10T06:13:45.903622",
+      "message": "update feature 106",
+      "time_since_last_commit_hours": 40.5,
+      "files_modified_count": 2
+    },
+    {
+      "sha": "sha107",
+      "author": "dev-3",
+      "email": "dev-5@example.com",
+      "date": "2025-03-20T08:58:51.344322",
+      "message": "update feature 107",
+      "time_since_last_commit_hours": 8.07,
+      "files_modified_count": 7
+    },
+    {
+      "sha": "sha108",
+      "author": "dev-3",
+      "email": "dev-2@example.com",
+      "date": "2025-02-19T03:03:44.282923",
+      "message": "update feature 108",
+      "time_since_last_commit_hours": 1.5,
+      "files_modified_count": 5
+    },
+    {
+      "sha": "sha109",
+      "author": "dev-2",
+      "email": "dev-5@example.com",
+      "date": "2025-03-10T02:12:04.028594",
+      "message": "update feature 109",
+      "time_since_last_commit_hours": 5.66,
+      "files_modified_count": 5
+    },
+    {
+      "sha": "sha110",
+      "author": "dev-2",
+      "email": "dev-3@example.com",
+      "date": "2025-02-18T02:13:57.756108",
+      "message": "update feature 110",
+      "time_since_last_commit_hours": 1.25,
+      "files_modified_count": 5
+    },
+    {
+      "sha": "sha111",
+      "author": "dev-3",
+      "email": "dev-4@example.com",
+      "date": "2025-02-24T07:23:29.930862",
+      "message": "update feature 111",
+      "time_since_last_commit_hours": 2.58,
+      "files_modified_count": 10
+    },
+    {
+      "sha": "sha112",
+      "author": "dev-5",
+      "email": "dev-2@example.com",
+      "date": "2025-09-10T14:08:42.756885",
+      "message": "update feature 112",
+      "time_since_last_commit_hours": 45.04,
+      "files_modified_count": 3
+    },
+    {
+      "sha": "sha113",
+      "author": "dev-4",
+      "email": "dev-2@example.com",
+      "date": "2025-02-17T12:50:22.594074",
+      "message": "update feature 113",
+      "time_since_last_commit_hours": 1.09,
+      "files_modified_count": 9
+    },
+    {
+      "sha": "sha114",
+      "author": "dev-1",
+      "email": "dev-4@example.com",
+      "date": "2025-03-16T17:34:35.388530",
+      "message": "update feature 114",
+      "time_since_last_commit_hours": 6.81,
+      "files_modified_count": 4
+    },
+    {
+      "sha": "sha115",
+      "author": "dev-2",
+      "email": "dev-4@example.com",
+      "date": "2025-04-13T03:07:42.896577",
+      "message": "update feature 115",
+      "time_since_last_commit_hours": 12.47,
+      "files_modified_count": 9
+    },
+    {
+      "sha": "sha116",
+      "author": "dev-3",
+      "email": "dev-4@example.com",
+      "date": "2025-02-13T08:40:22.977021",
+      "message": "update feature 116",
+      "time_since_last_commit_hours": 0.2,
+      "files_modified_count": 10
+    },
+    {
+      "sha": "sha117",
+      "author": "dev-2",
+      "email": "dev-3@example.com",
+      "date": "2026-05-01T12:48:06.947878",
+      "message": "update feature 117",
+      "time_since_last_commit_hours": 90.9,
+      "files_modified_count": 5
+    },
+    {
+      "sha": "sha118",
+      "author": "dev-4",
+      "email": "dev-2@example.com",
+      "date": "2025-07-02T23:54:31.917139",
+      "message": "update feature 118",
+      "time_since_last_commit_hours": 28.6,
+      "files_modified_count": 2
+    },
+    {
+      "sha": "sha119",
+      "author": "dev-2",
+      "email": "dev-2@example.com",
+      "date": "2025-05-24T20:10:48.244984",
+      "message": "update feature 119",
+      "time_since_last_commit_hours": 20.46,
+      "files_modified_count": 2
+    },
+    {
+      "sha": "sha120",
+      "author": "dev-2",
+      "email": "dev-3@example.com",
+      "date": "2025-03-01T08:30:33.274319",
+      "message": "update feature 120",
+      "time_since_last_commit_hours": 3.39,
+      "files_modified_count": 9
+    },
+    {
+      "sha": "sha121",
+      "author": "dev-2",
+      "email": "dev-2@example.com",
+      "date": "2025-09-21T08:17:10.974526",
+      "message": "update feature 121",
+      "time_since_last_commit_hours": 43.83,
+      "files_modified_count": 8
+    },
+    {
+      "sha": "sha122",
+      "author": "dev-5",
+      "email": "dev-4@example.com",
+      "date": "2025-07-19T20:32:56.987302",
+      "message": "update feature 122",
+      "time_since_last_commit_hours": 30.98,
+      "files_modified_count": 9
+    },
+    {
+      "sha": "sha123",
+      "author": "dev-3",
+      "email": "dev-5@example.com",
+      "date": "2025-05-13T06:02:22.727978",
+      "message": "update feature 123",
+      "time_since_last_commit_hours": 17.54,
+      "files_modified_count": 2
+    },
+    {
+      "sha": "sha124",
+      "author": "dev-5",
+      "email": "dev-1@example.com",
+      "date": "2026-08-18T16:56:16.493617",
+      "message": "update feature 124",
+      "time_since_last_commit_hours": 106.9,
+      "files_modified_count": 5
+    },
+    {
+      "sha": "sha125",
+      "author": "dev-3",
+      "email": "dev-3@example.com",
+      "date": "2025-06-06T09:55:40.005853",
+      "message": "update feature 125",
+      "time_since_last_commit_hours": 21.89,
+      "files_modified_count": 1
+    },
+    {
+      "sha": "sha126",
+      "author": "dev-3",
+      "email": "dev-2@example.com",
+      "date": "2025-06-11T21:35:14.489387",
+      "message": "update feature 126",
+      "time_since_last_commit_hours": 22.76,
+      "files_modified_count": 2
+    },
+    {
+      "sha": "sha127",
+      "author": "dev-4",
+      "email": "dev-4@example.com",
+      "date": "2025-04-01T23:35:26.211527",
+      "message": "update feature 127",
+      "time_since_last_commit_hours": 9.18,
+      "files_modified_count": 9
+    },
+    {
+      "sha": "sha128",
+      "author": "dev-2",
+      "email": "dev-1@example.com",
+      "date": "2025-05-02T20:18:20.112901",
+      "message": "update feature 128",
+      "time_since_last_commit_hours": 14.9,
+      "files_modified_count": 3
+    },
+    {
+      "sha": "sha129",
+      "author": "dev-2",
+      "email": "dev-1@example.com",
+      "date": "2025-07-22T09:52:34.250190",
+      "message": "update feature 129",
+      "time_since_last_commit_hours": 29.77,
+      "files_modified_count": 5
+    },
+    {
+      "sha": "sha130",
+      "author": "dev-2",
+      "email": "dev-3@example.com",
+      "date": "2025-02-21T05:08:55.512365",
+      "message": "update feature 130",
+      "time_since_last_commit_hours": 1.63,
+      "files_modified_count": 4
+    },
+    {
+      "sha": "sha131",
+      "author": "dev-4",
+      "email": "dev-5@example.com",
+      "date": "2025-03-20T11:27:24.363633",
+      "message": "update feature 131",
+      "time_since_last_commit_hours": 6.61,
+      "files_modified_count": 1
+    },
+    {
+      "sha": "sha132",
+      "author": "dev-2",
+      "email": "dev-4@example.com",
+      "date": "2025-03-12T06:57:07.874302",
+      "message": "update feature 132",
+      "time_since_last_commit_hours": 5.07,
+      "files_modified_count": 5
+    },
+    {
+      "sha": "sha133",
+      "author": "dev-1",
+      "email": "dev-4@example.com",
+      "date": "2025-03-12T20:47:55.382357",
+      "message": "update feature 133",
+      "time_since_last_commit_hours": 5.14,
+      "files_modified_count": 4
+    },
+    {
+      "sha": "sha134",
+      "author": "dev-4",
+      "email": "dev-3@example.com",
+      "date": "2025-03-15T01:44:04.322218",
+      "message": "update feature 134",
+      "time_since_last_commit_hours": 5.5,
+      "files_modified_count": 6
+    },
+    {
+      "sha": "sha135",
+      "author": "dev-3",
+      "email": "dev-3@example.com",
+      "date": "2025-05-19T06:22:05.377849",
+      "message": "update feature 135",
+      "time_since_last_commit_hours": 17.05,
+      "files_modified_count": 1
+    },
+    {
+      "sha": "sha136",
+      "author": "dev-1",
+      "email": "dev-2@example.com",
+      "date": "2025-06-18T10:55:48.533822",
+      "message": "update feature 136",
+      "time_since_last_commit_hours": 22.25,
+      "files_modified_count": 6
+    },
+    {
+      "sha": "sha137",
+      "author": "dev-2",
+      "email": "dev-2@example.com",
+      "date": "2026-04-01T11:59:38.768508",
+      "message": "update feature 137",
+      "time_since_last_commit_hours": 72.37,
+      "files_modified_count": 2
+    },
+    {
+      "sha": "sha138",
+      "author": "dev-3",
+      "email": "dev-5@example.com",
+      "date": "2025-02-17T15:45:46.748294",
+      "message": "update feature 138",
+      "time_since_last_commit_hours": 0.92,
+      "files_modified_count": 4
+    },
+    {
+      "sha": "sha139",
+      "author": "dev-3",
+      "email": "dev-4@example.com",
+      "date": "2025-03-15T05:15:10.977247",
+      "message": "update feature 139",
+      "time_since_last_commit_hours": 5.32,
+      "files_modified_count": 3
+    },
+    {
+      "sha": "sha140",
+      "author": "dev-1",
+      "email": "dev-5@example.com",
+      "date": "2025-03-19T09:24:41.263286",
+      "message": "update feature 140",
+      "time_since_last_commit_hours": 6.0,
+      "files_modified_count": 2
+    },
+    {
+      "sha": "sha141",
+      "author": "dev-5",
+      "email": "dev-1@example.com",
+      "date": "2026-01-14T15:20:30.967404",
+      "message": "update feature 141",
+      "time_since_last_commit_hours": 57.23,
+      "files_modified_count": 8
+    },
+    {
+      "sha": "sha142",
+      "author": "dev-5",
+      "email": "dev-1@example.com",
+      "date": "2025-02-22T14:17:44.645039",
+      "message": "update feature 142",
+      "time_since_last_commit_hours": 1.73,
+      "files_modified_count": 6
+    },
+    {
+      "sha": "sha143",
+      "author": "dev-5",
+      "email": "dev-5@example.com",
+      "date": "2025-12-14T16:59:37.592614",
+      "message": "update feature 143",
+      "time_since_last_commit_hours": 51.24,
+      "files_modified_count": 5
+    },
+    {
+      "sha": "sha144",
+      "author": "dev-4",
+      "email": "dev-5@example.com",
+      "date": "2025-10-05T10:58:02.384415",
+      "message": "update feature 144",
+      "time_since_last_commit_hours": 39.18,
+      "files_modified_count": 6
+    },
+    {
+      "sha": "sha145",
+      "author": "dev-2",
+      "email": "dev-2@example.com",
+      "date": "2025-03-07T04:02:22.409860",
+      "message": "update feature 145",
+      "time_since_last_commit_hours": 3.77,
+      "files_modified_count": 1
+    },
+    {
+      "sha": "sha146",
+      "author": "dev-4",
+      "email": "dev-5@example.com",
+      "date": "2025-06-28T04:53:34.809828",
+      "message": "update feature 146",
+      "time_since_last_commit_hours": 22.33,
+      "files_modified_count": 2
+    },
+    {
+      "sha": "sha147",
+      "author": "dev-4",
+      "email": "dev-2@example.com",
+      "date": "2025-03-25T16:15:22.055195",
+      "message": "update feature 147",
+      "time_since_last_commit_hours": 6.74,
+      "files_modified_count": 7
+    },
+    {
+      "sha": "sha148",
+      "author": "dev-1",
+      "email": "dev-3@example.com",
+      "date": "2025-05-15T11:37:23.861473",
+      "message": "update feature 148",
+      "time_since_last_commit_hours": 14.94,
+      "files_modified_count": 7
+    },
+    {
+      "sha": "sha149",
+      "author": "dev-5",
+      "email": "dev-3@example.com",
+      "date": "2025-04-19T18:50:53.183489",
+      "message": "update feature 149",
+      "time_since_last_commit_hours": 10.7,
+      "files_modified_count": 5
+    },
+    {
+      "sha": "sha150",
+      "author": "dev-1",
+      "email": "dev-5@example.com",
+      "date": "2025-04-26T20:01:57.021969",
+      "message": "update feature 150",
+      "time_since_last_commit_hours": 11.75,
+      "files_modified_count": 9
+    },
+    {
+      "sha": "sha151",
+      "author": "dev-3",
+      "email": "dev-5@example.com",
+      "date": "2025-03-03T04:10:52.712318",
+      "message": "update feature 151",
+      "time_since_last_commit_hours": 2.99,
+      "files_modified_count": 1
+    },
+    {
+      "sha": "sha152",
+      "author": "dev-4",
+      "email": "dev-1@example.com",
+      "date": "2026-06-27T13:00:22.532021",
+      "message": "update feature 152",
+      "time_since_last_commit_hours": 78.97,
+      "files_modified_count": 5
+    },
+    {
+      "sha": "sha153",
+      "author": "dev-3",
+      "email": "dev-5@example.com",
+      "date": "2025-02-16T01:24:05.487650",
+      "message": "update feature 153",
+      "time_since_last_commit_hours": 0.58,
+      "files_modified_count": 4
+    },
+    {
+      "sha": "sha154",
+      "author": "dev-5",
+      "email": "dev-4@example.com",
+      "date": "2025-07-06T09:44:32.676191",
+      "message": "update feature 154",
+      "time_since_last_commit_hours": 22.45,
+      "files_modified_count": 8
+    },
+    {
+      "sha": "sha155",
+      "author": "dev-1",
+      "email": "dev-4@example.com",
+      "date": "2025-09-03T09:46:55.473412",
+      "message": "update feature 155",
+      "time_since_last_commit_hours": 31.44,
+      "files_modified_count": 4
+    },
+    {
+      "sha": "sha156",
+      "author": "dev-1",
+      "email": "dev-4@example.com",
+      "date": "2025-08-09T17:25:53.822534",
+      "message": "update feature 156",
+      "time_since_last_commit_hours": 27.44,
+      "files_modified_count": 6
+    },
+    {
+      "sha": "sha157",
+      "author": "dev-3",
+      "email": "dev-3@example.com",
+      "date": "2025-09-06T06:04:03.865688",
+      "message": "update feature 157",
+      "time_since_last_commit_hours": 31.47,
+      "files_modified_count": 4
+    },
+    {
+      "sha": "sha158",
+      "author": "dev-3",
+      "email": "dev-4@example.com",
+      "date": "2025-03-09T01:36:07.755451",
+      "message": "update feature 158",
+      "time_since_last_commit_hours": 3.75,
+      "files_modified_count": 7
+    },
+    {
+      "sha": "sha159",
+      "author": "dev-4",
+      "email": "dev-5@example.com",
+      "date": "2026-04-15T11:05:29.375352",
+      "message": "update feature 159",
+      "time_since_last_commit_hours": 64.46,
+      "files_modified_count": 4
+    },
+    {
+      "sha": "sha160",
+      "author": "dev-4",
+      "email": "dev-5@example.com",
+      "date": "2026-02-20T02:04:37.612530",
+      "message": "update feature 160",
+      "time_since_last_commit_hours": 55.91,
+      "files_modified_count": 3
+    },
+    {
+      "sha": "sha161",
+      "author": "dev-3",
+      "email": "dev-5@example.com",
+      "date": "2025-03-29T16:23:32.236186",
+      "message": "update feature 161",
+      "time_since_last_commit_hours": 6.75,
+      "files_modified_count": 8
+    },
+    {
+      "sha": "sha162",
+      "author": "dev-3",
+      "email": "dev-3@example.com",
+      "date": "2025-07-06T11:48:16.971066",
+      "message": "update feature 162",
+      "time_since_last_commit_hours": 21.35,
+      "files_modified_count": 4
+    },
+    {
+      "sha": "sha163",
+      "author": "dev-2",
+      "email": "dev-4@example.com",
+      "date": "2025-03-06T08:22:44.397092",
+      "message": "update feature 163",
+      "time_since_last_commit_hours": 3.23,
+      "files_modified_count": 10
+    },
+    {
+      "sha": "sha164",
+      "author": "dev-2",
+      "email": "dev-1@example.com",
+      "date": "2026-03-19T22:20:53.339554",
+      "message": "update feature 164",
+      "time_since_last_commit_hours": 58.62,
+      "files_modified_count": 1
+    },
+    {
+      "sha": "sha165",
+      "author": "dev-5",
+      "email": "dev-3@example.com",
+      "date": "2025-09-14T12:00:59.699570",
+      "message": "update feature 165",
+      "time_since_last_commit_hours": 31.14,
+      "files_modified_count": 8
+    },
+    {
+      "sha": "sha166",
+      "author": "dev-5",
+      "email": "dev-2@example.com",
+      "date": "2025-04-07T19:48:27.989390",
+      "message": "update feature 166",
+      "time_since_last_commit_hours": 7.87,
+      "files_modified_count": 5
+    },
+    {
+      "sha": "sha167",
+      "author": "dev-4",
+      "email": "dev-3@example.com",
+      "date": "2025-02-12T16:05:09.302796",
+      "message": "update feature 167",
+      "time_since_last_commit_hours": 0.04,
+      "files_modified_count": 2
+    },
+    {
+      "sha": "sha168",
+      "author": "dev-4",
+      "email": "dev-4@example.com",
+      "date": "2025-10-14T08:45:59.078354",
+      "message": "update feature 168",
+      "time_since_last_commit_hours": 34.85,
+      "files_modified_count": 4
+    },
+    {
+      "sha": "sha169",
+      "author": "dev-2",
+      "email": "dev-4@example.com",
+      "date": "2025-05-27T02:59:15.480272",
+      "message": "update feature 169",
+      "time_since_last_commit_hours": 14.73,
+      "files_modified_count": 4
+    },
+    {
+      "sha": "sha170",
+      "author": "dev-5",
+      "email": "dev-2@example.com",
+      "date": "2026-04-03T15:53:28.338425",
+      "message": "update feature 170",
+      "time_since_last_commit_hours": 58.63,
+      "files_modified_count": 9
+    },
+    {
+      "sha": "sha171",
+      "author": "dev-2",
+      "email": "dev-1@example.com",
+      "date": "2025-03-13T02:36:51.769358",
+      "message": "update feature 171",
+      "time_since_last_commit_hours": 4.03,
+      "files_modified_count": 9
+    },
+    {
+      "sha": "sha172",
+      "author": "dev-1",
+      "email": "dev-2@example.com",
+      "date": "2025-05-31T10:07:47.933027",
+      "message": "update feature 172",
+      "time_since_last_commit_hours": 15.08,
+      "files_modified_count": 3
+    },
+    {
+      "sha": "sha173",
+      "author": "dev-2",
+      "email": "dev-3@example.com",
+      "date": "2025-03-03T10:17:24.539421",
+      "message": "update feature 173",
+      "time_since_last_commit_hours": 2.64,
+      "files_modified_count": 4
+    }
+  ],
+  "contributors": [
+    {
+      "login": "dev-1",
+      "contributions": 22
+    },
+    {
+      "login": "dev-2",
+      "contributions": 50
+    },
+    {
+      "login": "dev-3",
+      "contributions": 38
+    },
+    {
+      "login": "dev-4",
+      "contributions": 17
+    },
+    {
+      "login": "dev-5",
+      "contributions": 35
+    }
+  ],
+  "analysis_status": "pending",
+  "scraped_at": "2026-02-12T09:12:36.896960"
+}

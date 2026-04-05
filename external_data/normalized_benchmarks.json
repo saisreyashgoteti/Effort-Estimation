@@ -1,0 +1,82 @@
+[
+  {
+    "source": "Research-research_benchmarks",
+    "repo_name": "NASA93",
+    "contributor_count": 15,
+    "commit_velocity_avg_hours": 0.32,
+    "complexity_score": 95,
+    "agile_score": 88.0
+  },
+  {
+    "source": "Research-research_benchmarks",
+    "repo_name": "COCOMO81",
+    "contributor_count": 10,
+    "commit_velocity_avg_hours": 0.36,
+    "complexity_score": 85,
+    "agile_score": 92.0
+  },
+  {
+    "source": "Research-research_benchmarks",
+    "repo_name": "Desharnais",
+    "contributor_count": 25,
+    "commit_velocity_avg_hours": 0.288,
+    "complexity_score": 120,
+    "agile_score": 75.0
+  },
+  {
+    "source": "Research-research_benchmarks",
+    "repo_name": "China",
+    "contributor_count": 5,
+    "commit_velocity_avg_hours": 0.38399999999999995,
+    "complexity_score": 60,
+    "agile_score": 95.5
+  },
+  {
+    "source": "Research-research_benchmarks",
+    "repo_name": "Albrecht",
+    "contributor_count": 20,
+    "commit_velocity_avg_hours": 0.32,
+    "complexity_score": 110,
+    "agile_score": 82.0
+  },
+  {
+    "source": "Research-research_benchmarks",
+    "repo_name": "Maxwell",
+    "contributor_count": 30,
+    "commit_velocity_avg_hours": 0.256,
+    "complexity_score": 140,
+    "agile_score": 65.0
+  },
+  {
+    "source": "Research-research_benchmarks",
+    "repo_name": "Kemerer",
+    "contributor_count": 4,
+    "commit_velocity_avg_hours": 0.4,
+    "complexity_score": 50,
+    "agile_score": 97.0
+  },
+  {
+    "source": "Research-research_benchmarks",
+    "repo_name": "Kitchenham",
+    "contributor_count": 3,
+    "commit_velocity_avg_hours": 0.48,
+    "complexity_score": 40,
+    "agile_score": 98.5
+  },
+  {
+    "source": "Research-research_benchmarks",
+    "repo_name": "Miyazaki",
+    "contributor_count": 6,
+    "commit_velocity_avg_hours": 0.37333333333333335,
+    "complexity_score": 70,
+    "agile_score": 94.0
+  },
+  {
+    "source": "Research-research_benchmarks",
+    "repo_name": "Telecom",
+    "contributor_count": 28,
+    "commit_velocity_avg_hours": 0.256,
+    "complexity_score": 130,
+    "agile_score": 70.0
+  }
+]
